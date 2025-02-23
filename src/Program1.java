@@ -37,12 +37,14 @@ public class Program1
    //**************************************************************
    public static void main(String[] args)
    {
-      // Create an object of the main class and
-      // use it to call the non-static methods
-      FileCopyApp obj = new FileCopyApp();
+      // Create an instance of Program1 to call non-static methods
+      Program1 program1 = new Program1();
 
-      // Call the method to copy file
-      obj.main(); // This launches the file copy app
+      // Call the developerInfo method to display developer information
+      program1.developerInfo();
+
+      // Call main method of the FileCopyApp class
+      FileCopyApp.start();
 
    } // End of the main method
 

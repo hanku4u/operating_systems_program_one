@@ -28,7 +28,7 @@ import java.util.Scanner;
 
 public class FileCopyApp
 {
-    public static void main()
+    public static void start()
     {
         Scanner scanner = new Scanner(System.in);
 

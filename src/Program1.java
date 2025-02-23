@@ -39,10 +39,10 @@ public class Program1
    {
       // Create an object of the main class and
       // use it to call the non-static methods
-      Program1 obj = new Program1();
+      FileCopyApp obj = new FileCopyApp();
 
-      obj.developerInfo();
-
+      // Call the method to copy file
+      obj.main(); // This launches the file copy app
 
    } // End of the main method
 
@@ -58,7 +58,7 @@ public class Program1
    //
    //  Returns:      N/A
    //
-   //**************************************************************
+   //***************************************************************
    public void developerInfo()
    {
       System.out.println("Name:     Nicholas Haight");
